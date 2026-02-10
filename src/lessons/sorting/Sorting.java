@@ -3,8 +3,8 @@ package lessons.sorting;
 public class Sorting {
 
     public int[] insertionSort(int[] list){
-        int key =0;
-        int i =0;
+        int key;
+        int i;
         for (int j=1;j<list.length;j++){
             key = list[j];
             i= j-1;
